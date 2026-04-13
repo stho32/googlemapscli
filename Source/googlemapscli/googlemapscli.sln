@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "googlemapscli", "googlemapscli\googlemapscli.csproj", "{6490B9E8-3872-499B-AC42-2C9448BECEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "googlemapscli.BL", "googlemapscli.BL\googlemapscli.BL.csproj", "{31FB539D-1D29-4447-93FE-790C1BBD699B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "googlemapscli.BL.Tests", "googlemapscli.BL.Tests\googlemapscli.BL.Tests.csproj", "{BFA51B82-CB2F-4D09-80CE-854AE7B157FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "googlemapscli.BL.IntegrationTests", "googlemapscli.BL.IntegrationTests\googlemapscli.BL.IntegrationTests.csproj", "{856DF27A-CCBD-40B2-B81B-4CA5659E02C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6490B9E8-3872-499B-AC42-2C9448BECEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6490B9E8-3872-499B-AC42-2C9448BECEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6490B9E8-3872-499B-AC42-2C9448BECEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6490B9E8-3872-499B-AC42-2C9448BECEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FB539D-1D29-4447-93FE-790C1BBD699B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FB539D-1D29-4447-93FE-790C1BBD699B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FB539D-1D29-4447-93FE-790C1BBD699B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FB539D-1D29-4447-93FE-790C1BBD699B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA51B82-CB2F-4D09-80CE-854AE7B157FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA51B82-CB2F-4D09-80CE-854AE7B157FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA51B82-CB2F-4D09-80CE-854AE7B157FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA51B82-CB2F-4D09-80CE-854AE7B157FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856DF27A-CCBD-40B2-B81B-4CA5659E02C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856DF27A-CCBD-40B2-B81B-4CA5659E02C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856DF27A-CCBD-40B2-B81B-4CA5659E02C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856DF27A-CCBD-40B2-B81B-4CA5659E02C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
